@@ -1,23 +1,19 @@
-import logo from './logo.svg';
+
 import './App.css';
+import NewNote from './components/NewNote';
+import NoteCount from './components/NoteCount';
+import NoteList from './components/NoteList';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1 class="heading">Note Taking App</h1>
+      {/*creating a new note component */}
+      <NewNote />
+      {/* displaying all notes component */}
+      <NoteList />
+      {/* displaying the number of notes written */}
+      <NoteCount />
     </div>
   );
 }
