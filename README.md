@@ -12,4 +12,4 @@ The React Redux Note Taking App is a simple web application that allows users to
 
 ### You can view the live demo
 
-(Note-taking react-redux app)[https://note-taking-app-pauline-oraro.netlify.app/]
+[Note-taking react-redux app](https://note-taking-app-pauline-oraro.netlify.app/)
